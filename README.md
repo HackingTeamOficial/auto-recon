@@ -28,7 +28,8 @@ gospider, paramspider, gf, qsreplace, ffuf, dalfox, nuclei, unfurl
 También asegúrate de que el binario de Go esté en tu entorno (ej. /root/go/bin).
 🚀 Instalación
 
-git clone https://github.com/HackingTeamOficial/auto-recon
+git clone
+ https://github.com/HackingTeamOficial/auto-recon
 cd auto-recon
 chmod +x auto-recon.sh
 
