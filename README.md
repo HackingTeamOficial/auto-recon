@@ -33,6 +33,10 @@ git clone
 cd auto-recon
 chmod +x auto-recon.sh
 
+✅ Comando único para el usuario
+
+curl -sL https://raw.githubusercontent.com/tuusuario/auto-recon/main/install.sh | bash
+
 🧪 Uso
 
 ./auto-recon.sh https://example.com
