@@ -1,4 +1,4 @@
-🛠️ auto-recon.sh – Reconocimiento Automático para Pentesters
+🛠️ auto-recon.sh – Reconocimiento Automático para Pentesters Para Kali Linux y Termux
 
 Reconocimiento ofensivo automatizado a partir de una URL, integrando herramientas en Go ampliamente utilizadas en el mundo del hacking ético, bug bounty y OSINT.
 📌 Características principales
@@ -27,6 +27,28 @@ gospider, paramspider, gf, qsreplace, ffuf, dalfox, nuclei, unfurl
 
 También asegúrate de que el binario de Go esté en tu entorno (ej. /root/go/bin).
 🚀 Instalación
+
+🧪 ¿Cómo usarlo?
+
+    Guarda como auto-recon.sh
+
+    Dale permisos:
+
+chmod +x auto-recon.sh
+
+    Ejecuta directamente, ¡él se encarga de instalar lo que falte!
+
+./auto-recon.sh https://example.com
+
+📝 Ventajas
+
+    Sin dependencias externas innecesarias (como paramspider)
+
+    Autoinstalación de herramientas Go en ~/go/bin
+
+    Compatible directamente con Kali Linux y Termux
+
+Otra manera de instalacion 
 
 git clone
  https://github.com/HackingTeamOficial/auto-recon
@@ -92,7 +114,7 @@ Si quieres ayudar:
 MIT License – libre para uso personal y profesional.
 👨‍💻 Autor
 
-Desarrollado por AnonSec777
+Desarrollado por AnonSec777 leer la nota que dejamos en el README.md SIEMPRE
 Puedes encontrarme en Telegram, Twitter o Discord en las Siguientes RRSS
 
 Telegram
@@ -134,3 +156,5 @@ Canal de tiktok
 https://www.tiktok.com/@hacking.kdea?_t=ZS-8vTtlaQrDTL&_r=1
 
 #hackingteam #cibersecurity #infosec #eticalhacking #pentesting #dns #script #cracking #hack #security #bugbounty #payload #tools #exploit #cors #sqli #ssrf #python #c2 #poc #web #ramsomware #phishing #linux #osint #linux #windows #redteam #blueteam #spyware #digitalforensics #reverseengineeringtools #rat #malwareforensics #exploitdevelopment #sandboxing #apt #zerodayexploit #xss #github #cve #java #tools #termux #troyano #dev #sqlmap #waybackurls #copilot #ai #ia #kalilinux #parrot #dracos #susse #nessus #oswazap #burpsuite #wireguard
+
+
